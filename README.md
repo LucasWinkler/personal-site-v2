@@ -6,11 +6,9 @@ You can view it live at <a  href="https://lucaswinkler.dev/">https://lucaswinkle
 
 ## Built Using
 
-<p  align="center">
-	<a  href="https://reactjs.org/">
-		<img  alt="Checkout React"  title="React"  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"  width="140">
-	</a>
-</p>
+<a  href="https://reactjs.org/">
+	<img  alt="Checkout React"  title="React"  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"  width="140">
+</a>
 
 ## How To
 
