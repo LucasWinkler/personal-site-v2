@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Lucas Winkler's Portfolio",
+  "description": "A portfolio website built by Lucas Winkler to display projects and skills.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +20,5 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "standalone"
 }
