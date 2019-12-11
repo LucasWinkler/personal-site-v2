@@ -1,6 +1,6 @@
 ## About
 
-A portfolio website which is used for displaying my skills and projects.
+My personal website which is used for displaying my skills and projects.
 
 Built Using: [React](https://reactjs.org/)
 
