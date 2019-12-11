@@ -1,11 +1,10 @@
-@import './colours';
-@import './fonts';
+@import './variables';
 
 body {
   margin: 0;
   padding: 0;
   display: inline-block;
-  font-family: $roboto;
+  font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

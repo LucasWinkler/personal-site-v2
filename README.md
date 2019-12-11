@@ -8,7 +8,7 @@ Built Using: [React](https://reactjs.org/)
 
 - Clone or download the repository
 
-- `npm install` to install dependencies
+- `npm install` to install any needed dependencies
 
 - `npm start` to start a development version
 

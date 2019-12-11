@@ -2,8 +2,9 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="Hello">
+    <div className='Hello'>
       Hey there!
+      <button className='btn'>Button 1</button>
     </div>
   );
 }
