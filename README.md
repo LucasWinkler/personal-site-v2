@@ -7,7 +7,7 @@ My current website:
 - Live @ https://lucaswinkler.dev/
 - Repo @ https://github.com/LucasWinkler/personal-website
 
-### Built Using
+## Built Using
 
 - [React](https://reactjs.org/)
 

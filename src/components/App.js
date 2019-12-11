@@ -1,11 +1,11 @@
 import React from 'react';
+import Header from './layout/Header';
 
 function App() {
   return (
-    <div className='Hello'>
-      Hey there!
-      <button className='btn'>Button 1</button>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
