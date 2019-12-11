@@ -1,14 +1,8 @@
 ## About
 
-A portfolio website which for displaying my skills and projects.
+A portfolio website which is used for displaying my skills and projects.
 
-You can view it live at <a  href="https://lucaswinkler.dev/">https://lucaswinkler.dev/</a>
-
-## Built Using
-
-<a  href="https://reactjs.org/">
-	<img  alt="Checkout React"  title="React"  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"  width="140">
-</a>
+Built Using: [React](https://reactjs.org/)
 
 ## How To
 
