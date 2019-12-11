@@ -7,17 +7,9 @@ You can view it live at <a  href="https://lucaswinkler.dev/">https://lucaswinkle
 ## Built Using
 
 <p  align="center">
-
-<p style="float: left"> 
-<a  href="https://reactjs.org/">
-<img  alt="Checkout React"  title="React"  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"  width="140">
-</a>
-
-<a  href="https://www.gatsbyjs.org/">
-<img  alt="Checkout Gatsby"  title="Gatsby"  src="https://www.gatsbyjs.org/static/gatsby-icon-4a9773549091c227cd2eb82ccd9c5e3a.png"  width="84">
-</a>
-</p>
-
+	<a  href="https://reactjs.org/">
+		<img  alt="Checkout React"  title="React"  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"  width="140">
+	</a>
 </p>
 
 ## How To
