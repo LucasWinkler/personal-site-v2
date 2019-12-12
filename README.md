@@ -3,7 +3,7 @@
 
 <br />
 <p align="center">
-  <h3 align="center">Personal Site</h3>
+  <h3 align="center">Personal Website</h3>
 
   <p align="center">
     Personal/portfolio website hosted on Netlify.
@@ -17,6 +17,8 @@
 - [About](#about)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
 - [Contact](#contact)
 - [License](#license)
 
@@ -31,6 +33,18 @@ My new personal website which will be used to display my skills, projects and an
 - [React](https://reactjs.org/)
 
 ## Getting Started
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+
+- npm
+
+```sh
+npm install npm@latest -g
+```
+
+### Installation
 
 - Clone or download the repository then navigate to the root directory
 
@@ -56,4 +70,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-url]: https://choosealicense.com/licenses/mit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lucas-winkler/
-[website-screenshot]: https://via.placeholder.com/800x640.png/0000FF/808080?Text=Placeholder+Image
+[website-screenshot]: https://via.placeholder.com/800x640.png?Text=Placeholder+Image
