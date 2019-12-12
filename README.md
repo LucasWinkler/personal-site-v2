@@ -16,7 +16,7 @@
 
 - [About](#about)
   - [Built With](#built-with)
-  - [Getting Started](#getting-started)
+- [Getting Started](#getting-started)
 - [Contact](#contact)
 - [License](#license)
 
@@ -30,7 +30,7 @@ My new personal website which will be used to display my skills, projects and an
 
 - [React](https://reactjs.org/)
 
-### Getting Started
+## Getting Started
 
 - Clone or download the repository then navigate to the root directory
 
@@ -56,4 +56,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-url]: https://choosealicense.com/licenses/mit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lucas-winkler/
-[website-screenshot]: https://via.placeholder.com/800x640.png
+
+[website-screenshot]: https://via.placeholder.com/800x640.png/0000FF/808080?Text=Placeholder Image
