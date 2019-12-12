@@ -22,7 +22,7 @@
 
 ## About
 
-[![https://lucaswinkler.dev/][product-screenshot]](https://lucaswinkler.dev/)
+[![https://lucaswinkler.dev/][website-screenshot]](https://lucaswinkler.dev/)
 
 My new personal website which will be used to display my skills, projects and any other information. This version of my personal website is being built as a way to help teach myself React.
 
@@ -56,5 +56,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-url]: https://choosealicense.com/licenses/mit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lucas-winkler/
-
-<!-- TODO: Add screenshot [website-screenshot]: ./___.png -->
+[website-screenshot]: https://via.placeholder.com/800x640.png
