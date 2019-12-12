@@ -34,9 +34,9 @@ My new personal website which will be used to display my skills, projects and an
 
 ## Getting Started
 
-### Prerequisites
+Follow these steps in order to get the website up and running locally on your machine.
 
-This is an example of how to list things you need to use the software and how to install them.
+### Prerequisites
 
 - npm
 
