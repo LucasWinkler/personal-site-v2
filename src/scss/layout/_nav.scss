@@ -1,46 +1,33 @@
 .nav {
-  display: flex;
-  position: sticky;
-  top: 0;
-  background: #333333;
-  color: #fff;
-  justify-content: space-between;
-  z-index: 1;
-  padding: 1rem;
-  text-transform: uppercase;
-
-  &__logo {
-    color: #fff;
-
-    &__link {
-      color: #fff;
-    }
-  }
-
+  font-size: 0.9rem;
+  font-weight: 500;
   &__menu {
     display: flex;
     align-items: center;
     list-style: none;
 
     &__item {
+      padding: 0px 10px;
       &__link {
-        color: #fff;
+        color: $colour-light;
         padding: 0.75rem;
         margin: 0 0.25rem;
-
-        &--special {
-          color: #fff;
-          padding: 0.75rem;
-          margin: 0 0.25rem;
-          border: 3px solid #69afff;
-          border-radius: 3px;
-          &:hover {
-            background: #69afff;
-          }
-        }
+        transition: all 0.3s ease 0s;
 
         &:hover {
-          border-bottom: 3px solid #69afff;
+          color: $colour-light-hover;
+        }
+
+        &--cta {
+          color: $colour-light;
+          padding: 9px 15px;
+          border: 2px solid $colour-primary;
+          border-radius: 50px;
+          transition: all 0.3s ease 0s;
+          &:hover {
+            color: $colour-light;
+            background-color: $colour-primary;
+          }
         }
       }
     }

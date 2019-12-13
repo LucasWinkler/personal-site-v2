@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.5rem 10%;
+  background-color: $colour-dark;
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: auto;
+  .logo__link {
+    color: $colour-light;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+      color: $colour-light-hover;
+    }
+  }
+}
