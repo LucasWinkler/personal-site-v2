@@ -17,9 +17,9 @@
 - [About](#about)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 ## About
@@ -35,14 +35,6 @@ My new personal website which will be used to display my skills, projects and an
 ## Getting Started
 
 Follow these steps in order to get the website up and running locally on your machine.
-
-### Prerequisites
-
-- npm
-
-```sh
-npm install npm@latest -g
-```
 
 ### Installation
 
@@ -61,6 +53,11 @@ npm install npm@latest -g
 - [LinkedIn](https://linkedin.com/in/lucas-winkler)
 - [Github](https://github.com/lucaswinkler)
 - [Email](mailto:lucasj.winkler1999@gmail.com)
+
+## Acknowledgements
+
+- [Netlify](https://www.netlify.com/)
+- [Font Awesome](https://fontawesome.com)
 
 ## License
 
