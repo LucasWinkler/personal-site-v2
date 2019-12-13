@@ -5,7 +5,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 function Nav() {
   return (
-    <nav className='nav'>
+    <nav className='nav open'>
       <div className='nav-toggle'>
         <FontAwesomeIcon icon={faBars} />
         <FontAwesomeIcon icon={faTimes} />
