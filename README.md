@@ -8,7 +8,9 @@
   <p align="center">
     Personal/portfolio website hosted on Netlify.
     <br />
-    <a href="https://lucaswinkler.dev">View Demo</a>
+    <a href="https://lucaswinkler.dev">Live</a> 
+    |
+    <a href="https://trello.com/b/XkUzALBz/personal-website-board">Trello</a>
   </p>
 </p>
 
@@ -58,6 +60,7 @@ Follow these steps in order to get the website up and running locally on your ma
 
 - [Netlify](https://www.netlify.com/)
 - [Font Awesome](https://fontawesome.com)
+- [SCSS](https://sass-lang.com/)
 
 ## License
 
