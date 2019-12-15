@@ -5,7 +5,7 @@ import Contact from '../Contact';
 
 function Main() {
   return (
-    <main className='main'>
+    <main id='main' className='main'>
       <Skills />
       <Projects />
       <Contact />

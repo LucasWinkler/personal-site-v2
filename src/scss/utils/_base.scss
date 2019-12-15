@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: $font-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Utility classes
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+  max-width: 1280px;
+}

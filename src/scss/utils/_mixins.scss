@@ -1,0 +1,19 @@
+// calculate-rem
+//
+// Converts Pixels to REM and returns the result.
+//
+// $size: The size in pixels
+@function calculate-rem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+// calculate-font-size
+//
+// Sets the font size to the calculated result from calculate-rem.
+//
+// $size: The size of the font in pixels
+@mixin calculate-font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}

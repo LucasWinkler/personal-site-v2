@@ -2,8 +2,8 @@ import React from 'react';
 
 function Projects() {
   return (
-    <section className='section-projects'>
-      <h2>Projects section</h2>
+    <section id='section-projects' className='section-projects'>
+      <div className='container'></div>
     </section>
   );
 }
