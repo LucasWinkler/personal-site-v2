@@ -1,9 +1,14 @@
 /* Potential colours:
-    - #16151c
+    - #5673D3 - dark blue
+    - #67A5EE - light blue
+    - #ffffff - white
+    - #F6F6F6 - light grey
 */
 
-// Placeholder variables for colours
-$colour-primary: #000000;
-$colour-secondary: #ffffff;
-$colour-dark: #000000;
-$colour-light: #ffffff;
+$colour-text-primary: #ffffff;
+$colour-text-secondary: #222222;
+
+$colour-bg-primary: #67a5ee;
+$colour-bg-primary-darker: #5673d3;
+$colour-bg-secondary: #ffffff;
+$colour-bg-secondary-darker: #f3f3f3;

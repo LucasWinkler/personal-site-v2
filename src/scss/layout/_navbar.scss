@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: $colour-text-secondary;
+  height: calculate-rem(87px);
+  @include calculate-font-size(18px);
+
+  &-logo {
+    color: $colour-text-secondary;
+    margin-right: auto;
+
+    & > h1 {
+      @include calculate-font-size(18px);
+      font-weight: 700;
+    }
+  }
+
+  &-menu {
+    display: flex;
+    list-style: none;
+    &-social {
+      &::before {
+        content: '|';
+        margin: 0 1rem;
+      }
+
+      & > .navbar-item {
+        margin: 0 0.5rem;
+        @include calculate-font-size(16px);
+
+        & > .navbar-link {
+          border-radius: 60px;
+          box-shadow: 0px 0px 2px rgb(179, 179, 179);
+          padding: 0.5rem;
+          transition: all 0.3s ease;
+
+          &:hover {
+            box-shadow: 0px 0px 2px rgb(73, 73, 73);
+          }
+        }
+      }
+    }
+  }
+
+  &-item {
+    margin: 0 1rem;
+  }
+
+  &-link {
+    color: $colour-text-secondary;
+  }
+}

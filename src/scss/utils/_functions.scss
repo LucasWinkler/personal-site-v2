@@ -1,0 +1,9 @@
+// calculate-rem
+//
+// Converts Pixels to REM and returns the result.
+//
+// $size: The size in pixels
+@function calculate-rem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
