@@ -6,9 +6,11 @@ import Contact from '../Contact';
 function Main() {
   return (
     <main id='main' className='main'>
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className='container'>
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </main>
   );
 }
