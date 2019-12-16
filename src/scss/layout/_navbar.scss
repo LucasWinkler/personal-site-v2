@@ -38,6 +38,10 @@
           &:hover {
             box-shadow: 0px 0px 2px rgb(73, 73, 73);
           }
+
+          &::before {
+            display: none;
+          }
         }
       }
     }
@@ -45,9 +49,29 @@
 
   &-item {
     margin: 0 1rem;
+    display: inline-block;
   }
 
   &-link {
     color: $colour-text-secondary;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      height: 2px;
+      background: black;
+      position: absolute;
+      bottom: -0.5em;
+      left: 0;
+      right: 0;
+      transform: scale(0, 1);
+      transform-origin: bottom;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    &:hover::before {
+      transform: scale(1, 1);
+    }
   }
 }
