@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
+  const [scrollTop, setScrollTop] = useState(0);
+
+  useEffect(() => {
+    const onScroll = e => {
+      setScrollTop(e.target.documentElement.scrollTop);
+    };
+    window.addEventListener('scroll', onScroll);
+
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [scrollTop]);
+
   return (
-    <nav className='navbar'>
+    <nav className={scrollTop <= 30 ? 'navbar' : 'navbar navbar-shrink'}>
       <a href='/' className='navbar-logo'>
         <h1>Lucas Winkler</h1>
       </a>

@@ -5,6 +5,10 @@
   color: $colour-text-secondary;
   height: calculate-rem(87px);
   @include calculate-font-size(18px);
+  transition: height 0.3s ease-in-out;
+  &-shrink {
+    height: calculate-rem(60px);
+  }
 
   &-logo {
     color: $colour-text-secondary;
