@@ -1,5 +1,5 @@
 import React from 'react';
-import About from './About';
+import Hero from './Hero';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
@@ -7,7 +7,7 @@ import Contact from './Contact';
 function Main() {
   return (
     <main id='main-content' className='main-content'>
-      <About />
+      <Hero />
       <Skills />
       <Projects />
       <Contact />

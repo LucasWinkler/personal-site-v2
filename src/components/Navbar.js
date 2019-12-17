@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import navigation from '../data/navigation';
+import socials from '../data/socials';
 
 function Navbar() {
   const [scrollTop, setScrollTop] = useState(0);
@@ -25,53 +24,31 @@ function Navbar() {
         <h1>Lucas Winkler</h1>
       </a>
       <ul className='navbar-menu'>
-        <li className='navbar-item'>
-          <a href='#about-section' className='navbar-link'>
-            Home
-          </a>
-        </li>
-        <li className='navbar-item'>
-          <a href='#projects-section' className='navbar-link'>
-            Projects
-          </a>
-        </li>
-        <li className='navbar-item'>
-          <a href='#contact-section' className='navbar-link'>
-            Contact
-          </a>
-        </li>
+        {navigation.map((navItem, i) => {
+          return (
+            <li className='navbar-item' key={i}>
+              <a href={navItem.href} className='navbar-link'>
+                {navItem.label}
+              </a>
+            </li>
+          );
+        })}
       </ul>
       <ul className='navbar-menu navbar-menu-social'>
-        <li className='navbar-item'>
-          <a
-            href='https://github.com/LucasWinkler'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='navbar-link'
-          >
-            <FontAwesomeIcon icon={faGithub} fixedWidth />
-          </a>
-        </li>
-        <li className='navbar-item'>
-          <a
-            href='https://www.linkedin.com/in/lucas-winkler/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='navbar-link'
-          >
-            <FontAwesomeIcon icon={faLinkedinIn} fixedWidth />
-          </a>
-        </li>
-        <li className='navbar-item'>
-          <a
-            href='mailto:lucasj.winkler1999@gmail.com'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='navbar-link'
-          >
-            <FontAwesomeIcon icon={faEnvelope} fixedWidth />
-          </a>
-        </li>
+        {socials.map((social, i) => {
+          return (
+            <li className='navbar-item' key={i}>
+              <a
+                href={social.link}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='navbar-link'
+              >
+                <FontAwesomeIcon icon={social.icon} fixedWidth />
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
