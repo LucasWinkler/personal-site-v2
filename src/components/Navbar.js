@@ -19,12 +19,17 @@ function Navbar() {
   return (
     <nav
       id='navbar'
-      className={scrollTop <= 100 ? 'navbar' : 'navbar navbar-shrink'}
+      className={scrollTop <= 1 ? 'navbar' : 'navbar navbar-shrink'}
     >
       <a href='/' className='navbar-logo'>
         <h1>Lucas Winkler</h1>
       </a>
       <ul className='navbar-menu'>
+        <li className='navbar-item'>
+          <a href='#home' className='navbar-link'>
+            Home
+          </a>
+        </li>
         <li className='navbar-item'>
           <a href='#about' className='navbar-link'>
             About
