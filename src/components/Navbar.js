@@ -26,22 +26,17 @@ function Navbar() {
       </a>
       <ul className='navbar-menu'>
         <li className='navbar-item'>
-          <a href='#home' className='navbar-link'>
+          <a href='#about-section' className='navbar-link'>
             Home
           </a>
         </li>
         <li className='navbar-item'>
-          <a href='#about' className='navbar-link'>
-            About
-          </a>
-        </li>
-        <li className='navbar-item'>
-          <a href='#projects' className='navbar-link'>
+          <a href='#projects-section' className='navbar-link'>
             Projects
           </a>
         </li>
         <li className='navbar-item'>
-          <a href='#contact' className='navbar-link'>
+          <a href='#contact-section' className='navbar-link'>
             Contact
           </a>
         </li>
