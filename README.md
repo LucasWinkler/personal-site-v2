@@ -1,5 +1,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/84dd2909-2b0a-499a-8a01-f065b8c2d7df/deploy-status)](https://app.netlify.com/sites/lucas-winkler/deploys)
 
 <br />
 <p align="center">
@@ -26,7 +27,7 @@
 
 ## About
 
-[![https://lucaswinkler.dev/][website-screenshot]](https://lucaswinkler.dev/)
+[![https://lucas-winkler.netlify.com/][website-screenshot]](https://lucas-winkler.netlify.com/)
 
 My new personal website which will be used to display my skills, projects and any other information. This version of my personal website is being built as a way to help teach myself React.
 
