@@ -2,10 +2,10 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section className='about-section'>
+    <section id='hero-section' className='hero-section'>
       <div className='container'>
-        <h2 className='about-title'>Lucas Winkler</h2>
-        <p className='about-lead'>
+        <h2 className='hero-title'>Lucas Winkler</h2>
+        <p className='hero-lead'>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, quo.
           Fugiat velit dignissimos quae quia?
         </p>
