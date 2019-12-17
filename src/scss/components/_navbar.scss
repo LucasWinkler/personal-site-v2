@@ -3,11 +3,12 @@
   justify-content: flex-end;
   align-items: center;
   color: $colour-text-secondary;
-  height: calculate-rem(87px);
+  height: calculate-rem(128px);
   @include calculate-font-size(18px);
   transition: height 0.3s ease-in-out;
+
   &-shrink {
-    height: calculate-rem(60px);
+    height: calculate-rem(88px);
   }
 
   &-logo {

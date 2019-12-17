@@ -18,12 +18,3 @@ body {
 a {
   text-decoration: none;
 }
-
-// Utility classes
-
-.container {
-  margin: 0 auto;
-  padding: 0 2rem;
-  width: 100%;
-  max-width: calculate-rem(1200px);
-}

@@ -61,7 +61,7 @@ Follow these steps in order to get the website up and running locally on your ma
 
 - [Netlify](https://www.netlify.com/)
 - [Font Awesome](https://fontawesome.com)
-- [SCSS](https://sass-lang.com/)
+- [SASS](https://sass-lang.com/)
 
 ## License
 
