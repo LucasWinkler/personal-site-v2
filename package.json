@@ -2,7 +2,6 @@
   "name": "personal-site",
   "version": "0.1.0",
   "private": true,
-  "repository": "github:lucaswinkler/personal-site",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
@@ -12,6 +11,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "capture-website": "^0.8.0",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -19,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "npm start",
+    "capture": "node ./src/capture",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
