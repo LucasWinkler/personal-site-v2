@@ -9,7 +9,7 @@
   <p align="center">
     Personal/portfolio website hosted on Netlify.
     <br />
-    <a href="https://lucaswinkler.dev">Live</a> 
+    <a href="https://lucas-winkler.netlify.com/">Live</a> 
     |
     <a href="https://trello.com/b/XkUzALBz/personal-website-board">Trello</a>
   </p>
