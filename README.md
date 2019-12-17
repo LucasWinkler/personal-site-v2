@@ -27,9 +27,7 @@
 
 ## About
 
-<div style="border: 1px solid black">
-  [![https://lucas-winkler.netlify.com/][website-screenshot]](https://lucas-winkler.netlify.com/)
-</div>
+[![https://lucas-winkler.netlify.com/][website-screenshot]](https://lucas-winkler.netlify.com/)
 
 My new personal website which will be used to display my skills, projects and any other information. This version of my personal website is being built as a way to help teach myself React.
 
