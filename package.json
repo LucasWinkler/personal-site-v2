@@ -22,6 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+	"precapture": "rm -f ./screenshot.png",
     "capture": "node ./src/capture"
   },
   "eslintConfig": {
