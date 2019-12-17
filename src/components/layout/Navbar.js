@@ -17,7 +17,10 @@ function Navbar() {
   }, [scrollTop]);
 
   return (
-    <nav className={scrollTop <= 30 ? 'navbar' : 'navbar navbar-shrink'}>
+    <nav
+      id='navbar'
+      className={scrollTop <= 100 ? 'navbar' : 'navbar navbar-shrink'}
+    >
       <a href='/' className='navbar-logo'>
         <h1>Lucas Winkler</h1>
       </a>

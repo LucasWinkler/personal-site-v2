@@ -1,20 +1,20 @@
 {
   "short_name": "Portfolio",
-  "name": "Lucas Winkler's Portfolio",
-  "description": "A portfolio website built by Lucas Winkler to display projects and skills.",
+  "name": "Lucas Winkler's Personal/Portfolio Website",
+  "description": "A personal/portfolio website built by Lucas Winkler to display projects and skills.",
   "icons": [
     {
-      "src": "./images/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "./favicon.ico",
+      "sizes": "64x64 48x48 32x32 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "./images/logo192.png",
+      "src": "./images/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./images/logo512.png",
+      "src": "./images/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
