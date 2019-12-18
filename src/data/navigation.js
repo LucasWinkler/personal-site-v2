@@ -1,15 +1,15 @@
 const data = [
   {
     label: 'Home',
-    href: '#hero-section'
+    href: '#section-hero'
   },
   {
     label: 'Projects',
-    href: '#projects-section'
+    href: '#section-projects'
   },
   {
     label: 'Contact',
-    href: '#contact-section'
+    href: '#section-contact'
   }
 ];
 

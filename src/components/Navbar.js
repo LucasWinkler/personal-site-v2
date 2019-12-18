@@ -1,35 +1,43 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import navigation from '../data/navigation';
 import socials from '../data/socials';
 
 function Navbar() {
   const [scrollTop, setScrollTop] = useState(0);
+  const [scrollOffset, setScrollOffset] = useState(0);
 
   useEffect(() => {
     const onScroll = e => {
       setScrollTop(e.target.documentElement.scrollTop);
+      setScrollOffset(document.getElementById('header').offsetHeight);
     };
     window.addEventListener('scroll', onScroll);
 
     return () => window.removeEventListener('scroll', onScroll);
-  }, [scrollTop]);
+  }, [scrollTop, scrollOffset]);
 
   return (
-    <nav
-      id='navbar'
-      className={scrollTop <= 1 ? 'navbar' : 'navbar navbar-shrink'}
-    >
-      <a href='/' className='navbar-logo'>
+    <nav id='navbar' className={'navbar'}>
+      <AnchorLink
+        href='#section-hero'
+        offset={scrollOffset}
+        className='navbar-logo'
+      >
         <h1>Lucas Winkler</h1>
-      </a>
+      </AnchorLink>
       <ul className='navbar-menu'>
         {navigation.map((navItem, i) => {
           return (
             <li className='navbar-item' key={i}>
-              <a href={navItem.href} className='navbar-link'>
+              <AnchorLink
+                href={navItem.href}
+                offset={scrollOffset}
+                className='navbar-link'
+              >
                 {navItem.label}
-              </a>
+              </AnchorLink>
             </li>
           );
         })}
