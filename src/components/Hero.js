@@ -9,13 +9,13 @@ function Hero() {
         <div className='hero-content'>
           <h2 className='hero-title'>{heroData.title}</h2>
           <p className='hero-subtitle'>{heroData.subtitle}</p>
-          <button className={heroData.btnResume.style}>
+          <a className={heroData.btnResume.style} href='./resume.pdf' download>
             <FontAwesomeIcon
               icon={heroData.btnResume.icon}
               className='btn-icon'
             />
             {heroData.btnResume.text}
-          </button>
+          </a>
         </div>
       </div>
     </section>
