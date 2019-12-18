@@ -31,5 +31,11 @@
       height: calculate-rem(80px);
       font-size: calculate-rem(24px);
     }
+
+    .hero-cta-wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: calculate-rem(400px);
+    }
   }
 }

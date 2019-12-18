@@ -1,4 +1,5 @@
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const data = {
   title: 'Lucas Winkler',
@@ -9,6 +10,12 @@ const data = {
     icon: faDownload,
     style: 'btn btn-cta',
     href: './dummy-resume.pdf' // TODO: Create resume, convert to PDF and name it lucas_winkler-resume
+  },
+  btnContact: {
+    text: 'Contact',
+    icon: faEnvelope,
+    style: 'btn btn-cta btn-cta-outline',
+    href: '#section-contact'
   }
 };
 

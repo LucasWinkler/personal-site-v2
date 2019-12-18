@@ -5,18 +5,11 @@ import navigation from '../data/navigation';
 import socials from '../data/socials';
 
 function Navbar() {
-  const [scrollTop, setScrollTop] = useState(0);
   const [scrollOffset, setScrollOffset] = useState(0);
 
   useEffect(() => {
-    const onScroll = e => {
-      setScrollTop(e.target.documentElement.scrollTop);
-      setScrollOffset(document.getElementById('header').offsetHeight);
-    };
-    window.addEventListener('scroll', onScroll);
-
-    return () => window.removeEventListener('scroll', onScroll);
-  }, [scrollTop, scrollOffset]);
+    setScrollOffset(document.getElementById('header').offsetHeight);
+  }, [scrollOffset]);
 
   return (
     <nav id='navbar' className={'navbar'}>
