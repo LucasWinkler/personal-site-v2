@@ -1,4 +1,7 @@
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: calculate-rem(145px);
   height: calculate-rem(50px);
   background: $colour-background-light;
