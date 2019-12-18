@@ -1,3 +1,34 @@
-.hero-section {
-  height: calc(100vh - 120px);
+.section-hero {
+  height: calc(100vh - 88px);
+  background-color: $colour-background;
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 88px);
+
+    .hero-title {
+      font-weight: 700;
+      font-size: calculate-rem(80px);
+      margin-bottom: 4rem;
+      color: $colour-text;
+    }
+
+    .hero-subtitle {
+      font-weight: 500;
+      font-size: calculate-rem(38px);
+      color: $colour-text-light;
+      margin-bottom: 3rem;
+      max-width: 55rem;
+      line-height: 3.5rem;
+    }
+
+    .btn.btn-cta {
+      width: calculate-rem(195px);
+      height: calculate-rem(80px);
+      font-size: calculate-rem(24px);
+    }
+  }
 }

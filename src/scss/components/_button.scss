@@ -1,0 +1,32 @@
+.btn {
+  width: calculate-rem(145px);
+  height: calculate-rem(50px);
+  background: $colour-background-light;
+  border: 3px solid $colour-primary;
+  cursor: pointer;
+  text-align: center;
+  font-size: calculate-rem(16px);
+  font-weight: 600;
+  color: $colour-primary;
+  border-radius: calculate-rem(5px);
+  transition: color 0.2s ease, background 0.2s ease;
+
+  &:hover {
+    background: darken($colour-background-light, 50%);
+  }
+
+  &-cta {
+    border: none;
+    background: $colour-primary;
+    color: $colour-light;
+
+    &:hover {
+      background: darken($colour-primary, 4%);
+      color: darken($colour-light, 4%);
+    }
+  }
+
+  &-icon {
+    margin-right: 0.5rem;
+  }
+}

@@ -1,17 +1,22 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import heroData from '../data/hero';
 
 function Hero() {
   return (
-    <section id='hero-section' className='hero-section'>
+    <section id='section-hero' className='section-hero'>
       <div className='container'>
-        <h2 className='hero-title'>Lucas Winkler</h2>
-        <p className='hero-lead'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, quo.
-          Fugiat velit dignissimos quae quia?
-        </p>
-        <button id='btn-download-resume' className='btn btn-cta'>
-          Resume
-        </button>
+        <div className='hero-content'>
+          <h2 className='hero-title'>{heroData.title}</h2>
+          <p className='hero-subtitle'>{heroData.subtitle}</p>
+          <button className={heroData.btnResume.style}>
+            <FontAwesomeIcon
+              icon={heroData.btnResume.icon}
+              className='btn-icon'
+            />
+            {heroData.btnResume.text}
+          </button>
+        </div>
       </div>
     </section>
   );
