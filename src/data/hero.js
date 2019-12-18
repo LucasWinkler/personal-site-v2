@@ -7,7 +7,8 @@ const data = {
   btnResume: {
     text: 'Resume',
     icon: faDownload,
-    style: 'btn btn-cta'
+    style: 'btn btn-cta',
+    href: './dummy-resume.pdf' // TODO: Create resume, convert to PDF and name it lucas_winkler-resume
   }
 };
 
