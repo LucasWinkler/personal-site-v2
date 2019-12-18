@@ -8,7 +8,6 @@ function Main() {
   return (
     <main id='main-content' className='main-content'>
       <Hero />
-      <Skills />
       <Projects />
       <Contact />
     </main>

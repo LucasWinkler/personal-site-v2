@@ -4,6 +4,10 @@
 
 <br />
 <p align="center">
+  <a href="https://lucas-winkler.netlify.com/">
+    <img src="public/images/android-chrome-192x192.png" alt="Logo" width="80" height="80">
+  </a>
+
   <h3 align="center">Personal Website</h3>
 
   <p align="center">
