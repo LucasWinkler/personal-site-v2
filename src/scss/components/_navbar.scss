@@ -11,6 +11,17 @@
     height: calculate-rem(88px);
   }
 
+  &-toggle {
+    position: absolute;
+    top: 10;
+    right: 20;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    color: $colour-text;
+    font-size: calculate-rem(24px);
+  }
+
   &-logo {
     color: $colour-text;
     margin-right: auto;
@@ -22,9 +33,26 @@
     }
   }
 
+  &-menu {
+    display: flex;
+    list-style: none;
+  }
+
   &-item {
     margin: 0 1rem;
     display: inline-block;
+
+    &-social {
+      margin: 0 0.5rem;
+      @include calculate-font-size(16px);
+    }
+
+    &-divider::before {
+      content: '|';
+      margin-left: 1rem;
+      margin-right: 1.2rem;
+      color: $colour-text;
+    }
   }
 
   &-link {
@@ -50,38 +78,20 @@
     &:hover::before {
       transform: scale(1, 1);
     }
-  }
-
-  &-menu {
-    display: flex;
-    list-style: none;
 
     &-social {
-      &::before {
-        content: '|';
-        margin: 0 1rem;
-        color: $colour-text;
+      border-radius: 60px;
+      box-shadow: 0px 0px 2px rgb(179, 179, 179);
+      padding: 0.5rem;
+      transition: all 0.3s ease;
+      color: $colour-text;
+
+      &:hover {
+        box-shadow: 0px 0px 2px rgb(73, 73, 73);
       }
 
-      & > .navbar-item {
-        margin: 0 0.5rem;
-        @include calculate-font-size(16px);
-
-        & > .navbar-link {
-          border-radius: 60px;
-          box-shadow: 0px 0px 2px rgb(179, 179, 179);
-          padding: 0.5rem;
-          transition: all 0.3s ease;
-          color: $colour-text;
-
-          &:hover {
-            box-shadow: 0px 0px 2px rgb(73, 73, 73);
-          }
-
-          &::before {
-            display: none;
-          }
-        }
+      &::before {
+        display: none;
       }
     }
   }
