@@ -7,11 +7,15 @@
   @include calculate-font-size(18px);
   transition: height 0.3s ease-in-out;
 
+  @media (max-width: 767px) {
+  }
+
   &-shrink {
     height: calculate-rem(88px);
   }
 
   &-toggle {
+    display: none;
     position: absolute;
     top: 10;
     right: 20;
@@ -20,9 +24,14 @@
     border: 0;
     color: $colour-text;
     font-size: calculate-rem(24px);
+
+    @media (max-width: 767px) {
+      display: inline-block;
+    }
   }
 
   &-logo {
+    display: inline-block;
     color: $colour-text;
     margin-right: auto;
 
@@ -36,6 +45,20 @@
   &-menu {
     display: flex;
     list-style: none;
+
+    @media (max-width: 767px) {
+      display: none;
+
+      &-mobile-open {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: calculate-rem(250px);
+        width: 100vw;
+        background-color: $colour-background-light;
+      }
+    }
   }
 
   &-item {
@@ -45,6 +68,10 @@
     &-social {
       margin: 0 0.5rem;
       @include calculate-font-size(16px);
+
+      @media (max-width: 767px) {
+        display: none;
+      }
     }
 
     &-divider::before {
@@ -52,6 +79,10 @@
       margin-left: 1rem;
       margin-right: 1.2rem;
       color: $colour-text;
+
+      @media (max-width: 767px) {
+        display: none;
+      }
     }
   }
 

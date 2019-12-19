@@ -9,9 +9,14 @@ import socials from '../data/socials';
 function Navbar() {
   const [scrollOffset, setScrollOffset] = useState(0);
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const navClassNames = isNavOpen
-    ? 'navbar-menu navbar-menu-show'
-    : 'navbar-menu';
+  let navClassNames = '';
+  // ? 'navbar-menu navbar-menu-mobile-open'
+  // : 'navbar-menu';
+  if (isNavOpen) {
+    navClassNames = 'navbar-menu navbar-menu-mobile-open';
+  } else {
+    navClassNames = 'navbar-menu';
+  }
 
   useEffect(() => {
     setScrollOffset(document.getElementById('header').offsetHeight);
@@ -19,7 +24,10 @@ function Navbar() {
 
   return (
     <nav id='navbar' className={'navbar'}>
-      <button id='navbar-toggle' className='navbar-toggle'>
+      <button
+        className='navbar-toggle'
+        onClick={() => setIsNavOpen(!isNavOpen)}
+      >
         <FontAwesomeIcon icon={faBars} />
       </button>
       <AnchorLink
@@ -29,7 +37,7 @@ function Navbar() {
       >
         <h1>Lucas Winkler</h1>
       </AnchorLink>
-      <ul className='navbar-menu'>
+      <ul className={navClassNames}>
         {navigation.map((navItem, i) => {
           return (
             <li className='navbar-item' key={i}>
@@ -51,7 +59,7 @@ function Navbar() {
                 href={social.link}
                 target='_blank'
                 rel='noopener noreferrer'
-                className='navbar-link  navbar-link-social'
+                className='navbar-link navbar-link-social'
               >
                 <FontAwesomeIcon icon={social.icon} fixedWidth />
               </a>
@@ -59,22 +67,6 @@ function Navbar() {
           );
         })}
       </ul>
-      {/* <ul className='navbar-menu navbar-menu-social'>
-        {socials.map((social, i) => {
-          return (
-            <li className='navbar-item' key={i}>
-              <a
-                href={social.link}
-                target='_blank'
-                rel='noopener noreferrer'
-                className='navbar-link'
-              >
-                <FontAwesomeIcon icon={social.icon} fixedWidth />
-              </a>
-            </li>
-          );
-        })}
-      </ul> */}
     </nav>
   );
 }
