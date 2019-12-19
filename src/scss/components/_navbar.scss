@@ -7,9 +7,6 @@
   @include calculate-font-size(18px);
   transition: height 0.3s ease-in-out;
 
-  @media (max-width: 767px) {
-  }
-
   &-shrink {
     height: calculate-rem(88px);
   }
@@ -31,7 +28,7 @@
   }
 
   &-logo {
-    display: inline-block;
+    position: relative;
     color: $colour-text;
     margin-right: auto;
 
@@ -54,8 +51,7 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        height: calculate-rem(250px);
-        width: 100vw;
+        width: 100%;
         background-color: $colour-background-light;
       }
     }
