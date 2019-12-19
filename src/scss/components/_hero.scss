@@ -10,11 +10,35 @@
     height: calc(100vh - 88px);
     margin: 0 3rem;
 
+    @media (max-width: 600px) {
+      margin: 0 1rem;
+    }
+
     .hero-title {
       font-weight: 700;
       font-size: calculate-rem(80px);
       margin-bottom: 4rem;
       color: $colour-text;
+
+      @media (max-width: 979px) {
+        font-size: calculate-rem(70px);
+        margin-bottom: 3rem;
+      }
+
+      @media (max-width: 767px) {
+        font-size: calculate-rem(60px);
+        margin-bottom: 2rem;
+      }
+
+      @media (max-width: 600px) {
+        font-size: calculate-rem(50px);
+        margin-bottom: 1.5rem;
+      }
+
+      @media (max-width: 480px) {
+        font-size: calculate-rem(30px);
+        margin-bottom: 1.5rem;
+      }
     }
 
     .hero-subtitle {
@@ -24,18 +48,76 @@
       margin-bottom: 3rem;
       max-width: 55rem;
       line-height: 3.5rem;
+
+      @media (max-width: 979px) {
+        font-size: calculate-rem(28px);
+        margin-bottom: 2rem;
+        max-width: 45rem;
+        line-height: 2.5rem;
+      }
+
+      @media (max-width: 767px) {
+        font-size: calculate-rem(22px);
+        margin-bottom: 2rem;
+        max-width: 35rem;
+        line-height: 2rem;
+      }
+      @media (max-width: 600px) {
+        font-size: calculate-rem(20px);
+        margin-bottom: 1rem;
+        max-width: 30rem;
+        line-height: 1.8rem;
+      }
+      @media (max-width: 480px) {
+        font-size: calculate-rem(18px);
+        margin-bottom: 1rem;
+        max-width: 30rem;
+        line-height: 1.8rem;
+      }
     }
 
     .btn.btn-cta {
       width: calculate-rem(195px);
       height: calculate-rem(80px);
       font-size: calculate-rem(24px);
+
+      @media (max-width: 979px) {
+        width: calculate-rem(180px);
+        height: calculate-rem(65px);
+        font-size: calculate-rem(20px);
+      }
+
+      @media (max-width: 767px) {
+        width: calculate-rem(170px);
+        height: calculate-rem(60px);
+        font-size: calculate-rem(18px);
+      }
+
+      @media (max-width: 480px) {
+        width: 100%;
+        height: calculate-rem(60px);
+        font-size: calculate-rem(18px);
+        margin-bottom: 1rem;
+      }
     }
 
     .hero-cta-wrapper {
       display: flex;
       justify-content: space-between;
-      width: calculate-rem(400px);
+      width: 100%;
+      max-width: calculate-rem(400px);
+
+      @media (max-width: 979px) {
+        max-width: calculate-rem(370px);
+      }
+
+      @media (max-width: 767px) {
+        max-width: calculate-rem(350px);
+      }
+
+      @media (max-width: 480px) {
+        flex-direction: column;
+      }
     }
   }
 }
