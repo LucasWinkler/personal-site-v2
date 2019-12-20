@@ -9,15 +9,15 @@ function Navbar() {
   const [scrollOffset, setScrollOffset] = useState(0);
   const [isNavOpen, setIsNavOpen] = useState(false);
   const navClassNames = isNavOpen
-    ? 'nav-menu nav-menu-mobile-toggled'
-    : 'nav-menu';
+    ? 'nav nav-fixed nav-mobile-toggled'
+    : 'nav nav-fixed';
 
   useEffect(() => {
     setScrollOffset(document.getElementById('main-navigation').offsetHeight);
   }, [scrollOffset]);
 
   return (
-    <nav id='main-navigation' className='nav nav-fixed'>
+    <nav id='main-navigation' className={navClassNames}>
       <div className='container nav-wrapper'>
         <AnchorLink
           className='nav-logo'
@@ -32,7 +32,7 @@ function Navbar() {
           isNavOpen={isNavOpen}
         />
 
-        <ul id='main-navigation-menu' className={navClassNames}>
+        <ul id='main-navigation-menu' className='nav-menu'>
           {navigation.map((navItem, i) => {
             return (
               <li className='nav-menu-item' key={i}>

@@ -2,10 +2,10 @@
   position: relative;
   padding: 0.5rem 1rem;
   background-color: $colour-background-light;
-  transition: height 0.5s;
+  border-bottom: 2px solid $colour-background-dark;
+  //transition: height 0.5s;
   min-height: calculate-rem(88px);
   height: 88px;
-  padding: 0;
 
   &-fixed {
     position: fixed;
@@ -52,6 +52,8 @@
 
   &-menu {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     list-style: none;
 
     &-item {
@@ -127,6 +129,39 @@
 
     @media (max-width: 767px) {
       display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    &-mobile-toggled {
+      height: calculate-rem(240px);
+
+      .nav-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-menu {
+          display: flex;
+          flex-direction: column;
+          padding-left: 0;
+          margin-bottom: 0;
+          margin-right: auto;
+          flex-basis: 100%;
+
+          &-item {
+            margin-left: 0;
+            margin-right: 0;
+
+            &-link {
+              display: inline-block;
+              width: 100%;
+              padding: 1rem 0;
+            }
+          }
+        }
+      }
     }
   }
 }
