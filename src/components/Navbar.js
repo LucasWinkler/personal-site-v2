@@ -27,12 +27,15 @@ function Navbar() {
           <h1>Lucas Winkler</h1>
         </AnchorLink>
         <button
+          id='nav-mobile-toggle'
           className='nav-mobile-toggle'
           onClick={() => setIsNavOpen(!isNavOpen)}
+          aria-pressed={isNavOpen}
+          aria-label='Toggle mobile navigation menu button'
         >
           <FontAwesomeIcon icon={navToggleIcon} fixedWidth />
         </button>
-        <ul className={navClassNames}>
+        <ul id='main-navigation-menu' className={navClassNames}>
           {navigation.map((navItem, i) => {
             return (
               <li className='nav-menu-item' key={i}>
