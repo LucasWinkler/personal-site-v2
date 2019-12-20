@@ -3,7 +3,6 @@
   padding: 0.5rem 1rem;
   background-color: $colour-background-light;
   border-bottom: 2px solid $colour-background-dark;
-  //transition: height 0.5s;
   min-height: calculate-rem(88px);
   height: 88px;
 
@@ -141,6 +140,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+        margin-top: calculate-rem(12px);
 
         .nav-menu {
           display: flex;
