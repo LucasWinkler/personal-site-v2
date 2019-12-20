@@ -5,4 +5,12 @@
   margin-right: auto;
   margin-left: auto;
   max-width: calculate-rem(1200px);
+
+  @media (max-width: 1200px) {
+    max-width: calculate-rem(960px);
+  }
+
+  @media (max-width: 900px) {
+    max-width: calculate-rem(800px);
+  }
 }

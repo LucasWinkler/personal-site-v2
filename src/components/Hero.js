@@ -20,7 +20,9 @@ function Hero() {
             <a
               className={heroData.btnResume.style}
               href={heroData.btnResume.href}
-              download
+              target='_blank'
+              rel='noopener noreferrer'
+              // download
             >
               <FontAwesomeIcon
                 icon={heroData.btnResume.icon}
