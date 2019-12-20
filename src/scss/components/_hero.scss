@@ -2,7 +2,7 @@
   height: calc(100vh - 88px);
   background-color: $colour-background;
 
-  .hero-content {
+  .hero-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,7 @@
       }
 
       @media (max-width: 480px) {
-        font-size: calculate-rem(30px);
+        font-size: calculate-rem(40px);
         margin-bottom: 1.5rem;
       }
     }
@@ -58,7 +58,7 @@
 
       @media (max-width: 767px) {
         font-size: calculate-rem(22px);
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         max-width: 35rem;
         line-height: 2rem;
       }
