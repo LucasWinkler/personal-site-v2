@@ -23,6 +23,7 @@ function Navbar() {
           className='nav-logo'
           href='#section-hero'
           offset={scrollOffset}
+          onClick={() => setIsNavOpen(false)}
         >
           <h1>Lucas Winkler</h1>
         </AnchorLink>
