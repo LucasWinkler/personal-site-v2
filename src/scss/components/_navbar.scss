@@ -158,6 +158,14 @@
               display: inline-block;
               width: 100%;
               padding: 1rem 0;
+
+              &:hover {
+                background-color: $colour-background-dark;
+              }
+
+              &:hover::before {
+                display: none;
+              }
             }
           }
         }

@@ -40,6 +40,7 @@ function Navbar() {
                   href={navItem.href}
                   offset={scrollOffset}
                   className='nav-menu-item-link'
+                  onClick={() => setIsNavOpen(false)}
                 >
                   {navItem.label}
                 </AnchorLink>
