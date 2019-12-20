@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import navigation from '../data/navigation';
 import socials from '../data/socials';
+import MobileMenuButton from './MobileMenuButton';
 
 function Navbar() {
   const [scrollOffset, setScrollOffset] = useState(0);
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const navClassNames = isNavOpen ? 'nav-menu placeholder-class' : 'nav-menu';
-  const navToggleIcon = isNavOpen ? faTimes : faBars;
+  const navClassNames = isNavOpen
+    ? 'nav-menu nav-menu-mobile-toggled'
+    : 'nav-menu';
 
   useEffect(() => {
     setScrollOffset(document.getElementById('main-navigation').offsetHeight);
@@ -26,15 +26,12 @@ function Navbar() {
         >
           <h1>Lucas Winkler</h1>
         </AnchorLink>
-        <button
-          id='nav-mobile-toggle'
-          className='nav-mobile-toggle'
+
+        <MobileMenuButton
           onClick={() => setIsNavOpen(!isNavOpen)}
-          aria-pressed={isNavOpen}
-          aria-label='Toggle mobile navigation menu button'
-        >
-          <FontAwesomeIcon icon={navToggleIcon} fixedWidth />
-        </button>
+          isNavOpen={isNavOpen}
+        />
+
         <ul id='main-navigation-menu' className={navClassNames}>
           {navigation.map((navItem, i) => {
             return (

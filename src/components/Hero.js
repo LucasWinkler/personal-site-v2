@@ -21,7 +21,6 @@ function Hero() {
             href={heroData.btnResume.href}
             target='_blank'
             rel='noopener noreferrer'
-            // download
           >
             <FontAwesomeIcon
               icon={heroData.btnResume.icon}
