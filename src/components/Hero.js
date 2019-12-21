@@ -7,7 +7,7 @@ function Hero() {
   const [scrollOffset, setScrollOffset] = useState(0);
 
   useEffect(() => {
-    setScrollOffset(document.getElementById('header').offsetHeight);
+    setScrollOffset(document.getElementById('main-navigation').offsetHeight);
   }, [scrollOffset]);
 
   return (
