@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import heroData from '../data/hero';
+import heroData from '../../data/hero';
 
 function Hero() {
   const [scrollOffset, setScrollOffset] = useState(0);
