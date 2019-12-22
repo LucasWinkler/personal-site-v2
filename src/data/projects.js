@@ -3,7 +3,8 @@ const data = {
   projects: [
     {
       title: 'TurboGames',
-      link: 'https://github.com/LucasWinkler/TurboGames',
+      repoHref: 'https://github.com/LucasWinkler/TurboGames',
+      demoHref: null,
       image: '../../public/images/projects/turbogames.gif',
       imageAlt: 'TurboGames Project GIF',
       description:

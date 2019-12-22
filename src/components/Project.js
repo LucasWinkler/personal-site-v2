@@ -2,20 +2,36 @@ import React from 'react';
 
 function Project({ project }) {
   return (
-    // TODO: Find a place to put github and view buttons
+    // TODO: Map through all projects and also apply a muted style to repo/code links when null
     <div className='project'>
-      <header className='project-header'>
+      <div className='project-header'>
         <img src={project.image} class='project-image' alt={project.imageAlt} />
-        <h5 className='project-title'></h5>
-      </header>
-      <div className='project-body'>
-        <p>{project.description}</p>
+        <h2 className='project-title'>{project.title}</h2>
+        <div className='project-links'>
+          <a
+            className='project-link'
+            href={project.demoHref}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Demo
+          </a>
+          <a
+            className='project-link'
+            href={project.repoHref}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Repo
+          </a>
+        </div>
       </div>
-      <footer className='project-footer'>
+      <div className='project-body'>
+        <p className='project-description'>{project.description}</p>
         <ul className='project-tech'>
           {/* TODO: Map through project technologies */}
         </ul>
-      </footer>
+      </div>
     </div>
   );
 }

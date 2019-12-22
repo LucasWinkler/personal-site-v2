@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import socials from '../../data/socials';
 
 function Footer() {
