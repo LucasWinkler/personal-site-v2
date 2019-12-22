@@ -1,11 +1,12 @@
 const data = {
-  title: 'My Projects',
-  subtitle: 'These are personally my best projects so far.',
+  title: "Things I've Built",
   projects: [
     {
       title: 'TurboGames',
-      link: 'https://github.com/LucasWinkler/TurboGames',
+      repoHref: 'https://github.com/LucasWinkler/TurboGames',
+      demoHref: null,
       image: '../../public/images/projects/turbogames.gif',
+      imageAlt: 'TurboGames Project GIF',
       description:
         'This website is a game store that was created as a team for a class in college. It is not a real store but it acts like one. You are able to create an account, add games to your cart, purchase games, add friends and more.',
       technologies: [

@@ -1,4 +1,60 @@
 .section-contact {
-  height: calc(100vh - 88px);
+  height: calc(500px - 88px);
   background-color: $colour-background;
+
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    padding: 30px;
+
+    .contact-header {
+      text-align: center;
+      margin-bottom: 1.5rem;
+
+      .contact-title {
+        color: $colour-text;
+        font-size: calculate-rem(30px);
+        margin-bottom: 1rem;
+      }
+
+      .contact-body {
+        color: $colour-text-light;
+        font-size: calculate-rem(18px);
+        padding: 0 250px;
+
+        @media (max-width: 1200px) {
+          padding: 0 175px;
+        }
+
+        @media (max-width: 900px) {
+          padding: 0 100px;
+        }
+
+        @media (max-width: 767px) {
+          padding: 0 50px;
+        }
+
+        @media (max-width: 480px) {
+          padding: 0;
+        }
+      }
+    }
+
+    .btn {
+      margin: 0 auto;
+      &-contact {
+        background-color: transparent;
+        color: $colour-primary;
+        border-color: $colour-primary;
+
+        &:hover {
+          color: darken($colour-light, 4%);
+          background-color: darken($colour-primary, 4%);
+          border-color: darken($colour-primary, 4%);
+        }
+      }
+    }
+  }
 }

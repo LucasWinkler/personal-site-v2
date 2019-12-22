@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import navigation from '../data/navigation';
-import socials from '../data/socials';
-import MobileMenuButton from './MobileMenuButton';
+import navigation from '../../data/navigation';
+import socials from '../../data/socials';
+import MobileMenuButton from '../MobileMenuButton';
 
 function Navbar() {
   const [scrollOffset, setScrollOffset] = useState(0);

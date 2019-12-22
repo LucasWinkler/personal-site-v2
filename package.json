@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "precapture": "rm -f ./screenshot.png",
-    "capture": "node ./src/capture"
+    "capture": "node ./src/capture",
+    "serve": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
