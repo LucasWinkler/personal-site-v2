@@ -11,7 +11,10 @@
   <h3 align="center">Personal Website</h3>
 
   <p align="center">
-    The second iteration of <a href="https://lucaswinkler.dev/">lucaswinkler.dev</a> built with <a href="https://lucaswinkler.dev/">React</a> and hosted with <a href="https://lucaswinkler.dev/">Netlify</a>
+    The second iteration of <a href="https://lucaswinkler.dev/">lucaswinkler.dev</a>
+    <br />
+    built with <a href="https://reactjs.org/">React</a> and hosted with <a href="https://www.netlify.com/">Netlify</a>
+    <br />
     <br />
     <a href="https://lucaswinkler.dev/">Live</a> 
     |
