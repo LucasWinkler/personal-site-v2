@@ -15,7 +15,7 @@ const data = [
   },
   {
     label: 'Email',
-    link: 'mailto:lucasj.winkler1999@gmail.com',
+    link: 'mailto:lucaswinkler@gmail.com',
     icon: faEnvelope
   }
 ];
