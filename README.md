@@ -1,6 +1,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Netlify Status](https://api.netlify.com/api/v1/badges/84dd2909-2b0a-499a-8a01-f065b8c2d7df/deploy-status)](https://app.netlify.com/sites/lucas-winkler/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5b78ae9f-6887-468c-8cd3-33a2a05738dc/deploy-status)](https://app.netlify.com/sites/lucaswinkler/deploys)
 
 <br />
 <p align="center">
