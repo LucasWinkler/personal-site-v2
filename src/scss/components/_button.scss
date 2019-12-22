@@ -5,12 +5,12 @@
   width: calculate-rem(145px);
   height: calculate-rem(50px);
   background-color: $colour-background-light;
-  border: 3px solid $colour-primary;
+  border: 3px solid $colour-dark;
   cursor: pointer;
   text-align: center;
   font-size: calculate-rem(16px);
   font-weight: 600;
-  color: $colour-primary;
+  color: $colour-dark;
   border-radius: calculate-rem(5px);
   transition: background-color 0.2s ease, color 0.2s ease,
     border-color 0.2s ease;

@@ -1,9 +1,18 @@
 .footer {
   display: flex;
-  height: 10rem;
+  height: calculate-rem(80px);
   justify-content: center;
   align-items: center;
   text-align: center;
   color: $colour-light;
   background-color: $colour-background-darker;
+
+  a {
+    font-size: calculate-rem(13px);
+    color: $colour-light;
+
+    &:hover {
+      color: $colour-background-light;
+    }
+  }
 }
