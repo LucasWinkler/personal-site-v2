@@ -12,11 +12,6 @@
 
   <p align="center">
     The second iteration of <a href="https://lucaswinkler.dev/">lucaswinkler.dev</a> built with <a href="https://reactjs.org/">React</a> and hosted with <a href="https://www.netlify.com/">Netlify</a>
-    <br />
-    <br />
-    <a href="https://lucaswinkler.dev/">Live</a> 
-    |
-    <a href="https://trello.com/b/XkUzALBz/personal-website-board">Trello</a>
   </p>
 
 [![https://lucas-winkler.netlify.com/][website-screenshot]](https://lucas-winkler.netlify.com/)
@@ -28,12 +23,13 @@
 - [About](#about)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
+  - [Production](#production)
 - [Contact](#contact)
 - [License](#license)
 
 ## About
 
-My new personal website which will be used to display my skills, projects and any other information. This version of my personal website is being built as a way to help teach myself React.
+My new personal website which will be used to display my skills, projects and any other information. This version of my personal website is being built as a way to help teach myself React. Heres my Trello board so you can see what I'm currently working on: <a href="https://trello.com/b/XkUzALBz/personal-website-board">Trello</a>.
 
 ## Getting Started
 
