@@ -1,18 +1,41 @@
 .footer {
   display: flex;
-  height: calculate-rem(80px);
+  height: calculate-rem(120px);
   justify-content: center;
   align-items: center;
   text-align: center;
   color: $colour-light;
   background-color: $colour-background-darker;
 
-  a {
+  &-body {
     font-size: calculate-rem(13px);
     color: $colour-light;
 
     &:hover {
       color: $colour-background-light;
+    }
+  }
+
+  &-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 10px;
+
+    &-item {
+      margin: 5px;
+      &-link {
+        position: relative;
+        color: $colour-text-light;
+        font-weight: 500;
+        font-size: calculate-rem(16px);
+        border-radius: 60px;
+        background-color: $colour-background-light;
+        box-shadow: 0px 0px 2px rgb(179, 179, 179);
+        padding: 0.5rem;
+        color: $colour-text;
+      }
     }
   }
 }
