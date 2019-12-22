@@ -4,16 +4,16 @@
 
 <br />
 <p align="center">
-  <a href="https://lucas-winkler.netlify.com/">
+  <a href="https://lucaswinkler.dev/">
     <img src="public/images/android-chrome-192x192.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Personal Website</h3>
 
   <p align="center">
-    Personal/portfolio website hosted on Netlify.
+    The second iteration of <a href="https://lucaswinkler.dev/">lucaswinkler.dev</a> built with <a href="https://lucaswinkler.dev/">React</a> and hosted with <a href="https://lucaswinkler.dev/">Netlify</a>
     <br />
-    <a href="https://lucas-winkler.netlify.com/">Live</a> 
+    <a href="https://lucaswinkler.dev/">Live</a> 
     |
     <a href="https://trello.com/b/XkUzALBz/personal-website-board">Trello</a>
   </p>
@@ -22,7 +22,6 @@
 ## Table of Contents
 
 - [About](#about)
-  - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
 - [Contact](#contact)
@@ -35,10 +34,6 @@
 
 My new personal website which will be used to display my skills, projects and any other information. This version of my personal website is being built as a way to help teach myself React.
 
-### Built With
-
-- [React](https://reactjs.org/)
-
 ## Getting Started
 
 Follow these steps in order to get the website up and running locally on your machine.
@@ -47,25 +42,25 @@ Follow these steps in order to get the website up and running locally on your ma
 
 - Clone or download the repository then navigate to the root directory
 
-- `npm install` to install any needed dependencies
+- `npm install` to install any dependencies
 
-- `npm start` to start a development version
+- `npm start` to start a development server
 
   - Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
-- `npm run build` to create and start a production build that is optimized for the web
+### Production
+
+- `npm run build` to create a production build that is optimized for the web
+
+- `npm run serve` to run the production server
+
+  - Open [http://localhost:5000](http://localhost:5000) to view it in the browser
 
 ## Contact
 
 - [LinkedIn](https://linkedin.com/in/lucas-winkler)
 - [Github](https://github.com/lucaswinkler)
 - [Email](mailto:lucasj.winkler1999@gmail.com)
-
-## Acknowledgements
-
-- [Netlify](https://www.netlify.com/)
-- [Font Awesome](https://fontawesome.com)
-- [SASS](https://sass-lang.com/)
 
 ## License
 
