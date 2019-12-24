@@ -5,7 +5,11 @@ function Project({ project }) {
     // TODO: Map through all projects and also apply a muted style to repo/code links when null
     <div className='project'>
       <div className='project-header'>
-        <img src={project.image} class='project-image' alt={project.imageAlt} />
+        <img
+          src={project.image}
+          className='project-image'
+          alt={project.imageAlt}
+        />
         <h2 className='project-title'>{project.title}</h2>
         <div className='project-links'>
           <a

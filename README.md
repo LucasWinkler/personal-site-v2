@@ -29,7 +29,9 @@
 
 ## About
 
-My new personal website which will be used to display my skills, projects and any other information. This version of my personal website is being built as a way to help teach myself React. Heres my Trello board so you can see what I'm currently working on: <a href="https://trello.com/b/XkUzALBz/personal-website-board">Trello</a>.
+My new personal website which will be used to display my skills, projects and any other information. This version of my personal website is being built as a way to help teach myself React (React Hooks, TDD, possible static website generators or progressive web applications).
+
+Also heres my Trello board so you can see what I'm currently working on: <a href="https://trello.com/b/XkUzALBz/personal-website-board">Trello</a>.
 
 ## Getting Started
 
