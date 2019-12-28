@@ -9,7 +9,7 @@ const data = {
     text: 'Resume',
     icon: faExternalLinkAlt,
     style: 'btn btn-cta',
-    href: './dummy-resume.pdf' // TODO: Create resume, convert to PDF and name it lucas_winkler-resume
+    href: './lucas_winkler-resume.pdf' // TODO: Create resume, convert to PDF and name it lucas_winkler-resume
   },
   btnContact: {
     text: 'Contact',
