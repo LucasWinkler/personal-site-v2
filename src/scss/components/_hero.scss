@@ -8,11 +8,6 @@
     justify-content: center;
     align-items: flex-start;
     height: calc(100vh - 88px);
-    margin: 0 3rem;
-
-    @media (max-width: 600px) {
-      margin: 0 1rem;
-    }
 
     .hero-title {
       font-weight: 700;
@@ -117,6 +112,7 @@
 
       @media (max-width: 480px) {
         flex-direction: column;
+        min-width: 100%;
       }
     }
   }
