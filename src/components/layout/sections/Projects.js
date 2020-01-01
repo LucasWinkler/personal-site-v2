@@ -25,16 +25,9 @@ function Projects() {
             <div className='project-content'>
               <h3 className='project-title'>TurboGames</h3>
               <p className='project-description'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-                sequi?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+                accusamus animi velit voluptatibus perspiciatis cupiditate sint.
               </p>
-              <ul className='project-tech'>
-                {/* TODO: Map through project technologies */}{' '}
-                <li className='project-tech-item'>ASP.NET Core</li>
-                <li className='project-tech-item'>Razor Pages</li>
-                <li className='project-tech-item'>MSSQLSERVER</li>
-                <li className='project-tech-item'>Entity Framework</li>
-              </ul>
               <div className='project-links'>
                 <a
                   className='project-link'
@@ -42,57 +35,17 @@ function Projects() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FontAwesomeIcon icon={faGithub} fixedWidth />
+                  {/* <FontAwesomeIcon icon={faGithub} fixedWidth /> */}
+                  View Project
                 </a>
-                <a
+                {/* <a
                   className='project-link'
                   href='www.google.ca'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   <FontAwesomeIcon icon={faExternalLinkAlt} fixedWidth />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className='project'>
-            <a href='www.google.ca' className='project-image-link'>
-              <img
-                src='https://via.placeholder.com/480x320'
-                alt='Placeholder project'
-                className='project-image'
-              />
-            </a>
-            <div className='project-content'>
-              <h3 className='project-title'>TurboGames</h3>
-              <p className='project-description'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-                sequi?
-              </p>
-              <ul className='project-tech'>
-                {/* TODO: Map through project technologies */}{' '}
-                <li className='project-tech-item'>ASP.NET Core</li>
-                <li className='project-tech-item'>Razor Pages</li>
-                <li className='project-tech-item'>MSSQLSERVER</li>
-                <li className='project-tech-item'>Entity Framework</li>
-              </ul>
-              <div className='project-links'>
-                <a
-                  className='project-link'
-                  href='www.github.com'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <FontAwesomeIcon icon={faGithub} fixedWidth />
-                </a>
-                <a
-                  className='project-link'
-                  href='www.google.ca'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <FontAwesomeIcon icon={faExternalLinkAlt} fixedWidth />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
