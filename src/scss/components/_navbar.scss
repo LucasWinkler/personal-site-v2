@@ -1,6 +1,6 @@
 .nav {
   position: relative;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0;
   background-color: $colour-background-light;
   border-bottom: 2px solid $colour-background-dark;
   min-height: calculate-rem(88px);
@@ -140,7 +140,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        margin-top: calculate-rem(12px);
+        margin-top: calculate-rem(8px);
 
         .nav-menu {
           display: flex;
