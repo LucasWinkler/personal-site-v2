@@ -4,7 +4,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const data = {
   title: 'Lucas Winkler',
   subtitle:
-    'Hey, this is my personal website which should give you a good understanding of my skills as a web developer.',
+    'Hey, this is my personal website which should give you a good understanding of my skills as a front-end web developer.',
   btnResume: {
     text: 'Resume',
     icon: faExternalLinkAlt,
