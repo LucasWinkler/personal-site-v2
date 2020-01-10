@@ -57,8 +57,13 @@ function Navbar() {
                   target='_blank'
                   rel='noopener noreferrer'
                   className='nav-menu-item-link nav-menu-item-link_social'
+                  aria-label={social.label + ' navigation icon link'}
                 >
-                  <FontAwesomeIcon icon={social.icon} fixedWidth />
+                  <FontAwesomeIcon
+                    icon={social.icon}
+                    fixedWidth
+                    aria-hidden='true'
+                  />
                 </a>
               </li>
             );
