@@ -15,8 +15,13 @@ function Footer() {
                   target='_blank'
                   rel='noopener noreferrer'
                   className='footer-socials-item-link'
+                  aria-label={social.label + ' icon link'}
                 >
-                  <FontAwesomeIcon icon={social.icon} fixedWidth />
+                  <FontAwesomeIcon
+                    icon={social.icon}
+                    fixedWidth
+                    aria-hidden='true'
+                  />
                 </a>
               </li>
             );
