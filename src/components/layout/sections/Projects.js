@@ -20,22 +20,37 @@ function Projects() {
                 />
                 <div className='project-content'>
                   <div className='project-links'>
-                    <a href={project.liveHref} className='project-link'>
-                      <FontAwesomeIcon
-                        icon={faExternalLinkAlt}
-                        fixedWidth
-                        aria-hidden='true'
-                      />
-                      Live
-                    </a>
-                    <a href={project.sourceHref} className='project-link'>
-                      <FontAwesomeIcon
-                        icon={faCode}
-                        fixedWidth
-                        aria-hidden='true'
-                      />
-                      Source
-                    </a>
+                    {project.links.live !== null ? (
+                      <a
+                        href={project.links.live.href}
+                        className='project-link'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        <FontAwesomeIcon
+                          icon={faExternalLinkAlt}
+                          fixedWidth
+                          aria-hidden='true'
+                        />
+                        Live
+                      </a>
+                    ) : null}
+
+                    {project.links.source !== null ? (
+                      <a
+                        href={project.links.source.href}
+                        className='project-link'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        <FontAwesomeIcon
+                          icon={faCode}
+                          fixedWidth
+                          aria-hidden='true'
+                        />
+                        Source
+                      </a>
+                    ) : null}
                   </div>
                   <div className='project-title'>{project.title}</div>
                   <div className='project-description'>
