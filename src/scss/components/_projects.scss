@@ -5,11 +5,11 @@
   .projects-wrapper {
     min-height: 100%;
     min-width: 100%;
-    padding: 30px;
+    // padding: 30px;
 
     .projects-title {
       text-align: center;
-      margin-bottom: 1.5rem;
+      margin: 4rem;
     }
 
     .projects-list {
@@ -22,10 +22,10 @@
         border-radius: 4px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
 
-        &-image-link {
-          float: left;
-          &-image {
-          }
+        &-image {
+          display: block;
+          max-width: 480px;
+          max-height: 320px;
         }
 
         &-content {
@@ -33,16 +33,31 @@
           top: 50%;
           transform: translateY(-50%);
           margin-left: 480px;
-          padding: 15px;
-          text-align: center;
+          padding: 25px;
+          margin-top: 0.5rem;
+          margin-bottom: 5rem;
+          // text-align: center;
           .project-title {
+            font-weight: 700;
+            margin-bottom: 1rem;
           }
 
           .project-description {
           }
 
           .project-tech {
+            list-style: none;
+            text-align: left;
+            margin-top: 1.5rem;
             &-item {
+              display: inline-block;
+              background: $colour-primary;
+              color: $colour-background-light;
+              border-radius: 4px;
+              padding: 3px 7px;
+              font-size: 13px;
+              margin-right: 0.5rem;
+              margin-bottom: 0.5rem;
             }
           }
 
