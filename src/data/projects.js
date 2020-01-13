@@ -3,8 +3,12 @@ const data = {
   projects: [
     {
       title: 'TurboGames',
-      sourceHref: 'https://github.com/LucasWinkler/TurboGames',
-      liveHref: null,
+      links: {
+        source: {
+          href: 'https://github.com/LucasWinkler/TurboGames'
+        },
+        live: null
+      },
       image: './images/projects/turbogames.gif',
       imageAlt: 'TurboGames Image',
       description:
@@ -20,8 +24,14 @@ const data = {
     },
     {
       title: 'Personal Site V2',
-      sourceHref: 'https://github.com/LucasWinkler/personal-site',
-      liveHref: 'https://lucaswinkler.dev/',
+      links: {
+        source: {
+          href: 'https://github.com/LucasWinkler/TurboGames'
+        },
+        live: {
+          href: 'https://lucaswinkler.dev/'
+        }
+      },
       image: './images/screenshot.png',
       imageAlt: 'Personal Website Image',
       description:
