@@ -59,7 +59,7 @@ Follow these steps in order to get the website up and running locally on your ma
 
 - [LinkedIn](https://linkedin.com/in/lucas-winkler)
 - [Github](https://github.com/lucaswinkler)
-- [Email](mailto:lucasj.winkler1999@gmail.com)
+- [Email](mailto:lucaswinkler@gmail.com)
 
 ## License
 

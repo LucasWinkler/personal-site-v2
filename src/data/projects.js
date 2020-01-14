@@ -26,7 +26,7 @@ const data = {
       title: 'Personal Site V2',
       links: {
         source: {
-          href: 'https://github.com/LucasWinkler/TurboGames'
+          href: 'https://github.com/LucasWinkler/personal-site'
         },
         live: {
           href: 'https://lucaswinkler.dev/'

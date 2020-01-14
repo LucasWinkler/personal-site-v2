@@ -22,7 +22,7 @@
   &-cta {
     border: none;
     background-color: $colour-primary;
-    color: $colour-light;
+    color: $colour-background-light;
 
     &:hover {
       background-color: darken($colour-primary, 4%);

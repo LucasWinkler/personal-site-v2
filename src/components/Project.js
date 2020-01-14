@@ -2,7 +2,7 @@ import React from 'react';
 
 function Project({ project }) {
   return (
-    // TODO: Map through all projects and also apply a muted style to repo/code links when null
+    // TODO: Map through all projects and also apply a muted style (or just don't display it) to repo/code links when null
     <div className='project'>
       <div className='project-header'>
         <img
