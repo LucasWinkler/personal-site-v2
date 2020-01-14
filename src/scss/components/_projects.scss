@@ -1,6 +1,5 @@
 .section-projects {
   background-color: $colour-background-light;
-  padding-bottom: 3rem;
 
   .projects-wrapper {
     min-height: 100%;
@@ -9,7 +8,7 @@
 
     .projects-title {
       text-align: center;
-      margin: 4rem;
+      padding: 4rem;
     }
 
     .projects-list {
@@ -17,11 +16,15 @@
         position: relative;
         max-width: 900px;
         height: 320px;
-        margin: 0 auto 30px auto;
+        margin: 0 auto 60px auto;
         overflow: hidden;
         background: $colour-background;
         border-radius: 4px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+
+        :last-child {
+          margin-bottom: 10px;
+        }
 
         &-image {
           display: block;
