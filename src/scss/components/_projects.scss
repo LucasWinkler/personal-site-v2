@@ -9,6 +9,8 @@
     .projects-title {
       text-align: center;
       padding: 4rem;
+      color: $colour-text;
+      font-size: calculate-rem(30px);
     }
 
     .projects-list {
@@ -22,7 +24,12 @@
         border-radius: 4px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
 
-        :last-child {
+        @media (max-width: 900px) {
+          min-height: 640px;
+          max-width: 480px;
+        }
+
+        &:last-child {
           margin-bottom: 10px;
         }
 
@@ -30,8 +37,15 @@
           display: block;
           max-width: 480px;
           max-height: 320px;
+          overflow: hidden;
           height: 100%;
+          width: auto;
           border-right: 3px solid $colour-background-dark;
+
+          @media (max-width: 900px) {
+            border-right: none;
+            border-bottom: 3px solid $colour-background-dark;
+          }
         }
 
         &-content {
@@ -40,6 +54,11 @@
           margin-left: 480px;
           padding: 25px;
           height: 100%;
+
+          @media (max-width: 900px) {
+            margin-left: 0;
+            margin-top: 320px;
+          }
 
           .project-title {
             font-weight: 700;
