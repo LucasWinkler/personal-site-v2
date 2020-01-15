@@ -9,6 +9,8 @@
     .projects-title {
       text-align: center;
       padding: 4rem;
+      color: $colour-text;
+      font-size: calculate-rem(30px);
     }
 
     .projects-list {
@@ -22,7 +24,7 @@
         border-radius: 4px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
 
-        :last-child {
+        &:last-child {
           margin-bottom: 10px;
         }
 
