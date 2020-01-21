@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
-    "precapture": "rm -f ./screenshot.png",
+    "precapture": "rm -f ./public/images/screenshot.png",
     "capture": "node ./src/capture",
     "serve": "serve -s build"
   },
