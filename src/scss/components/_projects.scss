@@ -4,13 +4,13 @@
   .projects-wrapper {
     min-height: 100%;
     min-width: 100%;
-    // padding: 30px;
 
     .projects-title {
       text-align: center;
       padding: 4rem;
       color: $colour-text;
       font-size: calculate-rem(30px);
+      line-height: 1.5;
     }
 
     .projects-list {
@@ -23,13 +23,12 @@
         background: $colour-background;
         border-radius: 4px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+        margin-top: 10px;
 
         @media (max-width: 900px) {
           min-height: 640px;
           max-width: 480px;
         }
-
-        margin-top: 10px;
 
         &-image {
           display: block;
@@ -63,9 +62,6 @@
             margin-bottom: 1rem;
           }
 
-          .project-description {
-          }
-
           .project-tech {
             list-style: none;
             text-align: left;
@@ -90,16 +86,20 @@
             font-size: 12px;
             .project-link {
               display: inline-block;
-              background: $colour-primary;
-              color: $colour-background-light;
+              background: none;
+              border: 2px $colour-primary solid;
+              color: $colour-primary;
               border-radius: 4px;
               padding: 3px 7px;
               margin-right: 0.5rem;
               margin-bottom: 0.5rem;
+              transition: background-color 0.2s ease;
+              font-weight: 500;
 
               &:hover {
                 background-color: darken($colour-primary, 4%);
                 color: darken($colour-light, 4%);
+                border-color: darken($colour-primary, 4%);
               }
 
               &:last-child {
