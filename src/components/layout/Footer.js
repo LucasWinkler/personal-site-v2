@@ -4,7 +4,7 @@ import socials from '../../data/socials';
 
 function Footer() {
   return (
-    <footer id='footer' className='footer'>
+    <footer className='footer'>
       <div className='container footer-wrapper'>
         <ul className='footer-socials'>
           {socials.map((social, i) => {
