@@ -11,7 +11,7 @@ function Hero() {
   }, [scrollOffset]);
 
   return (
-    <section id='section-hero' className='section-hero'>
+    <section className='section-hero'>
       <div className='container hero-wrapper'>
         <h2 className='hero-title'>{heroData.title}</h2>
         <p className='hero-subtitle'>{heroData.subtitle}</p>

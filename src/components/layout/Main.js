@@ -5,7 +5,7 @@ import Contact from './sections/Contact';
 
 function Main() {
   return (
-    <main id='content' className='content'>
+    <main className='content'>
       <Hero />
       <Projects />
       <Contact />

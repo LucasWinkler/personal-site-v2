@@ -8,7 +8,6 @@ function MobileMenuButton({ onClick, isNavOpen }) {
 
   return (
     <button
-      id='nav-mobile-toggle'
       className='nav-mobile-toggle'
       onClick={onClick}
       aria-pressed={isNavOpen}
