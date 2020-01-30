@@ -6,7 +6,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 function Projects() {
   return (
-    <section className='section-projects'>
+    <section id='section-projects' className='section-projects'>
       <div className='container projects-wrapper'>
         <h2 className='projects-title'>{projectData.title}</h2>
         <div className='projects-list'>
