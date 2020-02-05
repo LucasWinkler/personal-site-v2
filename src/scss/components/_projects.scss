@@ -30,6 +30,10 @@
           max-width: 480px;
         }
 
+        @media (max-width: 420px) {
+          min-height: 700px;
+        }
+
         &-image {
           display: block;
           max-width: 480px;
