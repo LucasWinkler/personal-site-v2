@@ -1,6 +1,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5b78ae9f-6887-468c-8cd3-33a2a05738dc/deploy-status)](https://app.netlify.com/sites/lucaswinkler/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/32aaa4c2-de6e-43f5-be3c-df07939da6a9/deploy-status)](https://app.netlify.com/sites/lucaswinkler-v2/deploys)
 
 <br />
 <p align="center">
@@ -8,13 +8,13 @@
     <img src="public/images/android-chrome-192x192.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Personal Website</h3>
+  <h3 align="center">Personal Website v2</h3>
 
   <p align="center">
     The second iteration of <a href="https://lucaswinkler.dev/">lucaswinkler.dev</a> built with <a href="https://reactjs.org/">React</a> and hosted with <a href="https://www.netlify.com/">Netlify</a>
   </p>
 
-[![https://lucas-winkler.netlify.com/][website-screenshot]](https://lucaswinkler.dev/)
+[![https://lucas-winkler.netlify.com/][website-screenshot]](https://lucaswinkler-v2.netlify.app/)
 
 </p>
 
