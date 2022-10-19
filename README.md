@@ -4,17 +4,17 @@
 
 <br />
 <p align="center">
-  <a href="https://lucaswinkler.dev/">
+  <a href="https://lucaswinkler-v2.netlify.app/">
     <img src="public/images/android-chrome-192x192.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Personal Website v2</h3>
 
   <p align="center">
-    The second iteration of <a href="https://lucaswinkler.dev/">lucaswinkler.dev</a> built with <a href="https://reactjs.org/">React</a> and hosted with <a href="https://www.netlify.com/">Netlify</a>
+    The second iteration of <a href="https://lucaswinkler.dev/">lucaswinkler.dev</a> built with <a href="https://reactjs.org/">React</a> and hosted with <a href="https://www.netlify.com/">Netlify</a> at: <a href="https://lucaswinkler-v2.netlify.app/">lucaswinkler-v2.netlify.app</a>.
   </p>
 
-[![https://lucas-winkler.netlify.com/][website-screenshot]](https://lucaswinkler-v2.netlify.app/)
+[![https://lucaswinkler-v2.netlify.app][website-screenshot]](https://lucaswinkler-v2.netlify.app/)
 
 </p>
 
